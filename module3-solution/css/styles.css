@@ -9,19 +9,23 @@ body{
 	border-radius: 0px;
 	border: 0px;
 }
-.navbar-header h1{
+.navbar-brand h1{
 	font-size: 2em;
 	font-weight: bold;
-	color: #581845
+	color: #581845;
+	margin-top: -10px;
 }
 
-.navbar-header button.navbar-toggle {
+.navbar-brand button.navbar-toggle {
   clear: both;
-  margin-top: -50px;
+  margin-top: -40px;
 
 }
 .navbar-header a:hover, .navbar-header a:focus {
   text-decoration: none;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
 }
 
 #nav-list a{
@@ -37,20 +41,21 @@ body{
 }
 #main-heading{
 	font-size: 2.5em;
-
-	color: #A28F02;
+	border: 5px solid #A18300;
+	color: #A18300;
 	background-color:#CCC3CA ;
 	padding: 10px;
-	border-radius: 10px;  
-
+	border-radius: 10px;
+	font-weight: bold;  
 }
 p > a{
 	font-size: 1.em;
 	font-weight: bold;
 	color: #0A0175;
 }
-h3{
+section > h3{
 	font-weight: bold;
+	padding: 10px;
 }
 section{
 	background-color: #CCC3CA;
